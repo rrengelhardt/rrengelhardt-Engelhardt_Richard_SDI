@@ -15,7 +15,7 @@ var myZip;          // variable to hold the zip code
 var milesToWork;    // variable to hold the number of miles to work
 var myStringFriends;// variable to hold the number of friends
 var numInput;       // variable to tell if a number was input true or false
-var kilometers;     // variable to hold the result of converting miles to kilometers
+var kilometers;     // variable to hold the numweic result of converting miles to kilometers
 var myAddress;      // the concatenated entire address
 
 myStreetNumber = "30";              // assign a string value
