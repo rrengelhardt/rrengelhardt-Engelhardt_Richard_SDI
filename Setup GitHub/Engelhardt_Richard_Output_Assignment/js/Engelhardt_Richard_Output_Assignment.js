@@ -7,11 +7,11 @@
 
 // declare variables
 
-var streetName = prompt("Enter my address","");
-var city = prompt("Enter my city","");
-var state = prompt("Enter my state","");
-var miles = prompt("How many miles to work?","");
-var ownCar = prompt("Own a car true\false?","");
+var myStreetName;
+var myCity;
+var myState;
+var milesToWork = prompt("How many miles to drive to work?","");
+var ownCar;
 var kilometers;
-var address;
+var myAddress;
 
