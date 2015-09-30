@@ -27,3 +27,5 @@ myAddress = myStreetNumber + " " + myStreetName + ", " + myCity + ", " + myState
 document.write(myAddress);
 
 milesToWork = prompt("How many miles to drive to work?","");
+kilometers = parseFloat(milesToWork) * 1.60934;
+alert("That is " + kilometers + " kilometers");
