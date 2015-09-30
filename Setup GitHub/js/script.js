@@ -9,5 +9,5 @@ Test JS file
 
 console.log("Testing the console.log");
 
-var userInput = prompt("Type in your name");
+var userInput = prompt("Type in your First name");
 console.log(userInput);
