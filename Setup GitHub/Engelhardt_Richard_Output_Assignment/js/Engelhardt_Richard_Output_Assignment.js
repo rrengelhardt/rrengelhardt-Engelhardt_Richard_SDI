@@ -12,7 +12,7 @@ var myStreetName;
 var myCity;
 var myState;
 var myZip;
-var milesToWork = prompt("How many miles to drive to work?","");
+var milesToWork;
 var ownCar;
 var kilometers;
 var myAddress;
@@ -21,6 +21,9 @@ myStreetNumber = "30"
 myStreetName = "Salmer Avenue";
 myCity = "Pontiac";
 myState = "MI";
+myZip = "48341";
 myAddress = myStreetNumber + " " + myStreetName + ", " + myCity + ", " + myState + " " + myZip;
 
 document.write(myAddress);
+
+milesToWork = prompt("How many miles to drive to work?","");
