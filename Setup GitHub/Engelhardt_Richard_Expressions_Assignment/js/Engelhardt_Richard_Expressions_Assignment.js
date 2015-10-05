@@ -15,6 +15,10 @@ var surfaceArea; // holds the value of the surface area of the right triangular 
 var numInput;   // variable to hold the result of if an input was Not a Number.
 // input, assign values and check if Not a Number
 var sideArray = new Array();
+var widthSquared;
+var heightSquared;
+var hypotenuseSquared;
+var hypotenuse;
 
 index = 0;  // assign 0 to the array index
 console.log("Line 20 After index = " +index);
@@ -40,7 +44,6 @@ console.log("Line 32 numInput = " +numInput);
         numInput = true;                        // set numInput to true
         console.log("Line 38 Was a number input is " + numInput);             // display numInput
     }
-
 }
 
 numInput = false;
@@ -58,7 +61,6 @@ while (numInput == false) {
         numInput = true;                        // set numInput to true
         console.log("Line 56  Was a number input is " + numInput);             // display numInput
     }
-
 }
 
 numInput = false;
@@ -76,5 +78,15 @@ while (numInput == false) {
         numInput = true;                        // set numInput to true
         console.log("Line 77  Was a number input is " + numInput);             // display numInput
     }
-
 }
+
+widthSquared = sideArray[index] * sideArray[index];
+index--;
+heightSquared = sideArray[index] * sideArray[index];
+hypotenuseSquared = widthSquared + heightSquared;
+hypotenuse = Math.sqrt(hypotenuseSquared);
+
+console.log("Line 85 Hypotenuse = " + hypotenuse);
+
+surfaceArea = (sideArray[1] * sideArray[2]) + (sideArray[0] * sideArray[1]) + (sideArray[0] * sideArray[2]) + (sideArray[0] * hypotenuse);
+console.log("The total surface area is :  " + surfaceArea);
