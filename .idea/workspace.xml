@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="863e04c7-6f04-4e40-a83d-5871c366d9ee" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Setup GitHub/Engelhardt_Richard_Expressions_Assignment/js/Engelhardt_Richard_Expressions_Assignment.js" afterPath="$PROJECT_DIR$/Setup GitHub/Engelhardt_Richard_Expressions_Assignment/js/Engelhardt_Richard_Expressions_Assignment.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Setup GitHub/Engelhardt_Richard_Output_Assignment/index.html" afterPath="$PROJECT_DIR$/Setup GitHub/Engelhardt_Richard_Output_Assignment/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Setup GitHub/Engelhardt_Richard_Output_Assignment/js/.idea/workspace.xml" afterPath="$PROJECT_DIR$/Setup GitHub/Engelhardt_Richard_Output_Assignment/js/.idea/workspace.xml" />
     </list>
     <ignored path="Engelhardt_Richard_SDI.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -23,11 +25,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Setup GitHub/Engelhardt_Richard_Output_Assignment/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="3" column="33" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
+            <state vertical-scroll-proportion="0.31484258">
+              <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -43,11 +45,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Engelhardt_Richard_Expressions_Assignment.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Engelhardt_Richard_Expressions_Assignment.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Setup GitHub/Engelhardt_Richard_Expressions_Assignment/js/Engelhardt_Richard_Expressions_Assignment.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.52098405">
-              <caret line="29" column="2" selection-start-line="29" selection-start-column="2" selection-end-line="29" selection-end-column="2" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="17" column="67" selection-start-line="17" selection-start-column="67" selection-end-line="17" selection-end-column="67" />
               <folding />
             </state>
           </provider>
@@ -84,9 +86,9 @@
         <option value="$PROJECT_DIR$/Setup GitHub/index.html" />
         <option value="$PROJECT_DIR$/Setup GitHub/js/script.js" />
         <option value="$PROJECT_DIR$/Setup GitHub/Engelhardt_Richard_Output_Assignment/js/Engelhardt_Richard_Output_Assignment.js" />
-        <option value="$PROJECT_DIR$/Setup GitHub/Engelhardt_Richard_Output_Assignment/index.html" />
         <option value="$PROJECT_DIR$/Setup GitHub/Engelhardt_Richard_Expressions_Assignment/index.html" />
         <option value="$PROJECT_DIR$/Setup GitHub/Engelhardt_Richard_Expressions_Assignment/js/Engelhardt_Richard_Expressions_Assignment.js" />
+        <option value="$PROJECT_DIR$/Setup GitHub/Engelhardt_Richard_Output_Assignment/index.html" />
       </list>
     </option>
   </component>
@@ -237,7 +239,7 @@
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Setup GitHub/Engelhardt_Richard_Output_Assignment/js/Engelhardt_Richard_Output_Assignment.js" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Setup GitHub/Engelhardt_Richard_Expressions_Assignment/js" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
@@ -303,8 +305,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="20" y="43" width="1400" height="788" extended-state="1" />
-    <editor active="true" />
+    <frame x="20" y="43" width="1400" height="788" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -385,14 +387,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Setup GitHub/Engelhardt_Richard_Output_Assignment/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="3" column="33" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Setup GitHub/Engelhardt_Richard_Expressions_Assignment/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-2.5">
@@ -413,8 +407,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Setup GitHub/Engelhardt_Richard_Expressions_Assignment/js/Engelhardt_Richard_Expressions_Assignment.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.52098405">
-          <caret line="29" column="2" selection-start-line="29" selection-start-column="2" selection-end-line="29" selection-end-column="2" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="67" selection-start-line="17" selection-start-column="67" selection-end-line="17" selection-end-column="67" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Setup GitHub/Engelhardt_Richard_Output_Assignment/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.31484258">
+          <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
           <folding />
         </state>
       </provider>
