@@ -2,18 +2,17 @@
     Richard Engelhardt
     SDI 1510
     Creating Variables and Output
-    09-30-2015
+    10-06-2015
+
+    This program will accept the length, width, and height of a right triangular prism
+    and output the surface area of the prism.
  */
-console.log("Inside script.");
 
 // declare variables
 
-// variable to hold the measurement of the sides of a right triangular prism.
-
-var index;      // integer used to hold the value of the array index.
-var surfaceArea; // holds the value of the surface area of the right triangular prism.
-var numInput;   // variable to hold the result of if an input was Not a Number.
-// input, assign values and check if Not a Number
+var index;          // integer used to hold the value of the array index.
+var surfaceArea;    // holds the value of the surface area of the right triangular prism.
+var numInput;       // variable to hold the result of if an input was Not a Number.
 var sideArray = new Array();
 var widthSquared;
 var heightSquared;
@@ -28,8 +27,9 @@ console.log("Line 20 After index = " +index);
 numInput = false;
 
 while (numInput == false) {
-//    sideArray[index] = prompt("Please enter side 1 the length ", 100);
-sideArray[index] = prompt("Line 28 enter the length ", "");
+
+// input, assign values and check if Not a Number
+    sideArray[index] = prompt("Please enter side 1 the length ", 0);
 console.log("Line 29 numInput = " +numInput);
 //    console.log("Line 29 sideArrary = " + sideArray[index]);
 
