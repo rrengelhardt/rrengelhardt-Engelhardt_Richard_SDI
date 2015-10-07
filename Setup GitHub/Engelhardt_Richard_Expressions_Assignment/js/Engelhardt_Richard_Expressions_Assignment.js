@@ -1,4 +1,5 @@
 /** Richard Engelhardt
+ *  SDI 1510
  *  10-06-2015
  *  Expressions Assignment
  */
@@ -23,7 +24,7 @@ while (numInput == false) {  // do while a number has not been input
     sideArray[index] = prompt("Please enter side 1 the length ", 0);    // get the value for side 1
     if ((isNaN(sideArray[index])) == true) {    // check to see if sideArray is a number, if not display false, otherwise display true
         numInput = false;                       // if so set numInput to false
-        console.log("Line 35 The amount entered was not a number.  Try again?");    // tell the user a number was not input
+        console.log("The amount entered was not a number.  Try again?");    // tell the user a number was not input
     } else {                                    // else if is Not a Number is false
         sideArray[index] = Number(sideArray[index]);    // convert the answer to a number
         numInput = true;                        // set numInput to true
@@ -44,6 +45,8 @@ while (numInput == false) {     // so while a number has not been input
     } else {                                       // else if sideArray is input as a number
         sideArray[index] = Number(sideArray[index]);    // convert the answer to a number
         numInput = true;                          // set numInput to true
+        console.log("Was a number input is " + numInput);             // display numInput
+
     }   // end else
 }   // end while
 
@@ -71,10 +74,10 @@ heightSquared = sideArray[index] * sideArray[index];    // compute b squared, or
 hypotenuseSquared = widthSquared + heightSquared;       // compute c squared, or in other words the hypotenuse squared
 hypotenuse = Math.sqrt(hypotenuseSquared);              // compute the hypotenuse
 
-console.log("The Hypotenuse = " + hypotenuse);          // outpuy the hypotenuse
 /*********** calculate the surface area ****************/
 surfaceArea = (sideArray[1] * sideArray[2]) + (sideArray[0] * sideArray[1]) + (sideArray[0] * sideArray[2]) + (sideArray[0] * hypotenuse);
 
+console.log("The Hypotenuse = " + hypotenuse);          // outpuy the hypotenuse
 console.log("The total surface area of the right triangular prism is :  " + surfaceArea); // ouput the surface area
 
 /* I typed 9 for the length, 8 for the width, and 6 for the height and my calculator gave me 264 for the surface area */
