@@ -289,69 +289,9 @@ while (calculate === true) {    // while the user wants to calculate
             newPrinciple = principal + interest;                            // compute the new principal
             console.log("Line 290 The time = " + time);              // output the interest
             console.log("Line 291 The New Principal = " + newPrinciple);     // output the new principal
-        }   // while calcRate
+        }   // while calcTime
         console.log("Line 293 calculate = " + calculate);   // outpute calculate
-/*
-    }   else if ((calcWhat === "t") || (calcWhat === "T")) {     // if calcWhat = time
-        console.log("Line 230 inside else if calcWhat " + calcWhat);
-        calcTime = true;                            // set calcTime to true
-        while (calcTime === true) {              // do while calcTime is true
-            getInterest = true;                        // set getInterest to true
-            while (getInterest === true) {                 // do while getInterest is true
-                interest = prompt("Please enter the interest", "");       // get the interest
-                if (((isNaN(interest) === true)) || (interest === "")) {  // if not a number or is empty
-                    console.log("Line 237 the interest = " + interest);     // output the interest
-                    if (interest === "") {                                 // if notheing entered
-                        getInterest = true;                                // get the interest is true
-                        console.log("line 235 You must enter a value");      // display error message
-                    } else {                                                // otherwise
-                        console.log("Line 237 you must enter a number");     // display error message
-                    }   // end else
-                } else {    // otherwise
-                    getInterest = false;           // set getInterest to false to be able to exit the loop
-                    interest = Number(interest);  // make sure interest is converted to a number
-                    console.log("Line 242 getInterest = " + getInterest);
-                }   // end else
-                getPrincipal = true;                                                     // set getting the principal to true
-                while (getPrincipal === true) {                                      // while getPrincipal is true
-                    principal = prompt("Please enter the principal", "");                 // get the principal from the user
-                    console.log("Line 246 the principal = " + principal);                  // ouput the principal
-                    if ((((isNaN(principal) === true)) || principal === "")) {            // if is not a number or was empty
-                        if (principal === "") {                                      // if nothing entered
-                            getPrincipal = true;                                     // make sure set to true
-                            console.log("line 250 You must enter a value");      // display error message
-                        } else {                                                // else it is not a number
-                            console.log("Line 252 you must enter a number");     // display error message
-                        }                                                           // end else
-                    } else {                                                    // otherwise a valid rate has been entered
-                        getPrincipal = false;                                        // set getting the rate to false
-                        principal = Number(principal);                                    // convert the rate to a number
-                    }                                                           // end else
-                    getRate = true;                                             // set getting the amount of time to true
-                    while (getRate === true) {                                  // as long as getTime is true
-                        rate = prompt("Please enter the rate", "");  // input the amount of time
-                        console.log("Line 261 the rate = " + rate);              // output the time
-                        if ((((isNaN(rate) === true)) || rate === "")) {        // if the time is not a number or empty
-                            if (time === "") {                                  // if no time entered
-                                getRate = true;                                 // set getting the time to true
-                                console.log("line 265 You must enter a value");  // display error message
-                            } else {                                                // otherwise a number was not entered
-                                console.log("Line 267 you must enter a number"); // display error message
-                            }                       // end else
-                        } else {                    // the time has been entered
-                            getRate = false;        // get time = false
-                            rate = Number(rate);    // convert time to a number
-                        }   //end else
-                    }  // end while getTime
-                          // end while getPrincipal
-                    // end while getInterest
-            calcTime = false;                                           // set the calcTime to false to exit the loop
-            time = interest / principal * rate;                             // compute the interest
-            newPrinciple = principal + interest;                            // compute the new principal
-            console.log("Line 284 The time = " + time);              // output the time
-            console.log("Line 285 The New Principal = " + newPrinciple);     // output the new principal
-            console.log(" Line 286 getInterest = " + getInterest);          // output getInterest
-        }   // while getPrincipal
+
         console.log("Line 288 calculate = " + calculate);   // outpute calculate
     }   else if((calcWhat === "")) {     // if calcWhat = nothing
         console.log("Line 290 calcWhat = " + calcWhat);
@@ -360,6 +300,6 @@ while (calculate === true) {    // while the user wants to calculate
     }
         else {
             console.log("Line 295 that is an invalid input, please try again");
-*/       calculate = true;
+            calculate = true;
     }
 }   // end while calculate
