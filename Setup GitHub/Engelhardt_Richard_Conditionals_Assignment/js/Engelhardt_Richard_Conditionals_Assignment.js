@@ -282,5 +282,13 @@ while (calculate === true) {    // while the user wants to calculate
             console.log(" Line 282 getInterest = " + getInterest);          // output getInterest
         }   // while calcPrincipal
         console.log("Line 284 calculate = " + calculate);   // outpute calculate
+    }   else if((calcWhat === "")  {     // if calcWhat = nothing
+            console.log("Line 286 calcWhat = " + calcWhat);
+            console.log("Line 287 you must enter something");
+            calculate = true;
+        else {
+            console.log("Line 289 that is an invalid input, please try again");
+            calculate = true;
+        }
     }
 }   // end while calculate
