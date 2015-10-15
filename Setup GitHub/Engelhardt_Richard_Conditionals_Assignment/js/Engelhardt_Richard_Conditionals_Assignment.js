@@ -1,9 +1,9 @@
 /** Richard Engelhardt
  *  SDI 1510
- *  10-12-2015
- *  Expressions Assignment
+ *  10-15-2015
+ *  Conditionals Assignment
  *
- *  I have a lot of diagnostic output going on.  I decided to leave it in.
+ *  I have a lot of diagnostic output going on.  I decided to leave it in, but, may not include them in my flowchart.
  */
 
 //  This application will solve for interest, principal, rate, or time depending on the users choice
@@ -22,11 +22,11 @@ var getTime;            // holds the boolean value of whether to prompt for the 
 var calcInterest;       // holds the boolean value for whether to calculate the interest
 var newPrinciple;       // holds the value of the new principal after the interest has been calculated
 var getInterest;         // holds the boolean value for whether to prompt for the interest
-var getIPRT;
+var getIPRT;            // holds the boolean value of whether we need to get the iprt input
 
-calcString = "";
-calcWhat = "";
-getIPRT = true;
+calcString = "";        // initialize calcString to empty
+calcWhat = "";          // initialize calcWhat to empty
+getIPRT = true;         // set getIPRT to true
 getInterest = true;     // set getInterest to true
 calcInterest = true;    // set calcInterest to true it will later be changed to false if necessaru
 getRate = true;         // set getRate to true will be turned off later
@@ -41,27 +41,27 @@ while (calculate === true) {    // while the user wants to calculate
         console.log("line 41 You must enter a value");  // display an error message
         calculate = true;       // make sure calculate is set to true so it will go through at least one more iteration
     }   else if ((calcString === "Y") || (calcString === "y")) {  // if the answer was yes
-        getIPRT = true;
-        while (getIPRT === true) {
+        getIPRT = true;                 // set getting iprt to true
+        while (getIPRT === true) {      // while get iprt is true
             calcWhat = prompt("Do you wish to calculate for interest, principal, rate, or time input i, p, r, t");  // input iprt
-            switch (calcWhat) {
-                case "":
-                    console.log("Line 49 Please enter a value");
-                    break;
-                case "i":
-                case "I":
-                case "p":
-                case "P":
-                case "r":
-                case "R":
-                case "t":
-                case "T":
-                    getIPRT = false;
-                    break;
-                default :
-                    console.log("Line 62 please enter i,p,r,t ");
-            }
-        }
+            switch (calcWhat) { // switch to the correct case
+                case "":        // case empty string
+                    console.log("Line 49 Please enter a value");  // display error message
+                    break;      // exit the switch statement
+                case "i":       // if calcWhat is interest
+                case "I":       // if calcWhat is Interest
+                case "p":       // if calcWhat is principal
+                case "P":       // if calcWhat is Principal
+                case "r":       // if calcWhat is rate
+                case "R":       // if calcWhat is Rate
+                case "t":       // if calcWhat is time
+                case "T":       // if calcWhat is Time
+                    getIPRT = false;    // set getting IPRT to false
+                    break;      // exit the switch statement
+                default :       // for everything else
+                    console.log("Line 62 please enter i,p,r,t ");   // display error message
+            }   // end switch
+        }   // end while
     } else if ((calcString === "N") || (calcString === "n")) {    // if the answer was no
         console.log("Line 66 calcString = " + calcString);
                 calculate = false;  // set whether to calculate to false
@@ -71,8 +71,8 @@ while (calculate === true) {    // while the user wants to calculate
     else {  // they didn't enter a valid character
                 console.log("Line 72 that is an invalid input, please try again");  // give them the error message
                 calculate = true;   // make sure calculate stays to true so it will ask again
-            }
-           // end else
+    } // end else
+
 
     console.log(("Line 77 calcWhat = " + calcWhat));    // output calcWhat
     if ((calcWhat === "i") || (calcWhat === "I")) {     // if calcWhat = interest
@@ -268,3 +268,4 @@ while (calculate === true) {    // while the user wants to calculate
     }   // end else
     calcWhat = "";  // reset calcWhat
 }   // end while calculate
+// entered 3400 for principal, .035 for rate and 12 for years, answer for interest was 1428, both on calculator and application
