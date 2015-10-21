@@ -9,8 +9,8 @@
 
 alert("Line 10 inside script");
 
-var calcLotto = true;
-var numberCeil;
+
+var numberCeil;             numberholds
 var getLotto = true;               // boolean used to get a set of numbers or exit
 var answer = "";
 var whatToGet= "";
@@ -18,17 +18,92 @@ var lottoArray = new Array();
 
 console.log("Line 17 before function");
 
+/*************************************************************************************************************************************************/
+
+function fillArray(fceil) [
+
+var i=1;
+var lottoNum= 0;
+var j=0;
+var getnum = true;
+var lottoArray2 new ()
+
+for (i=1;i<6;i++) {
+    lottoNum = (Math.floor(Math.random() * fCeil) + 1);
+    if (i>1) {
+        getNum = true;
+        while (getNum === true) {
+            for (j = 1; j <= i; j++) {
+                if (lottoArray2[j] === lottoNum) {
+                    lottoNum = (Math.floor(Math.random() * fCeil) + 1);
+                    j--
+                }
+            }
+            getNum = fals;
+    lottoArray2[i] = lottoNum;
+    console.log("Line 47 lottoArray2 = " + lottoArray2[i]);
+}
+
+]
+
+for (i=1;i<6;i++) {
+    lottoNum = (Math.floor(Math.random() * 59) + 1);
+    if (i>1) {
+        getNum = true;
+        while (getNum === true) {
+            for (j = 1; j <= i; j++) {
+                if (lottoArray2[j] === lottoNum) {
+                    lottoNum = (Math.floor(Math.random() * 59) + 1);
+                }
+            }
+            getNum = false;
+        }
+    }
+    lottoArray2[i] = lottoNum;
+    console.log("Line 47 lottoArray2 = " + lottoArray2[i]);
+}
+
+/******************************************************************************************************************************************/
+
+
 function getNumbers(numberCeil) {
     var randomNum = Math.random();
     var lottoArray2 = new Array();
     var i = 0;
+    var j = 0;
+    var lottoNum;
+    var getNum;
+
     if (numberCeil === 59) {
         lottoArray2[i] = 59;
         console.log("Line 25 inside function i = " + i);
+                lottoNum = (Math.floor(Math.random() * 35) + 1);
+        lottoArray2[i] = lottoNum;
+        console.log("Line 47 lottoArray2 = " + lottoArray2[i]);
+    } else {
+        lottoArray2[i] = 53
+        for (i=1;i<7;i++) {
+            lottoNum = (Math.floor(Math.random() * 53) + 1);
+            if (i>1) {
+                getNum = true;
+                while (getNum === true) {
+                    for (j = 1; j <= i; j++) {
+                        if (lottoArray2[j] === lottoNum) {
+                            lottoNum = (Math.floor(Math.random() * 53) + 1);
+                        }
+                    }
+                    getNum = false;
+                }
+            }
+            lottoArray2[i] = lottoNum;
+            console.log("Line 66 lottoArray2 = " + lottoArray2[i]);
+        };
     }
 }
     console.log("Line 26 after function");
 // for (i=1; i<6; i++) {console.log("Line22 i = " + i);}
+
+/***************************************************************************************************************************************/
 
 while (getLotto === true) {
     answer = prompt("Do you wish to play the lottery? Y/N");
@@ -66,44 +141,3 @@ while (getLotto === true) {
                break;// display error message
     }   // end switch
 }
-
-
-
-
-/*
-    if((answer != "y") || (answer != "n"))
-    {
-        console.log("that was an invalid answer, try again");
-    }
-    if (answer === "n") {
-        getLotto = false;
-        console.log("Line 40 inside if getLotto = " + getLotto);
-    }
-    if (answer === "y") {
-
-        while ((whatToGet != "F") && (whatToGet != "P"))
-        {
-            whatToGet = prompt("Input F for Florida Lottery,or P for Powerball");
-        }
-
-    }
-
-}
-
-*/
-
-
-/*
- else if (Answer === "N") {
- getLotto === False;
- console.log(("Line 43 getLotto = " + getLotto));
- }
-
-        else {
-
-
-
-
-
-
-*/
